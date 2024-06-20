@@ -31,7 +31,7 @@ def get_vector_store(text_chunks: List[str]):
 
 
 def main():
-    load_dotenv()
+    #load_dotenv()
     st.set_page_config(page_title="Multiple PDF Chat", page_icon=":books:")
     st.header("Multiple PDF Chat :books:")
     st.text_input("Ask a question about your PDFs:")
